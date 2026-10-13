@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 19.046832 58.435555 0)
+			(at -0.221 -4.354 0)
 			(layer "F.Fab")
 			(uuid "e322177c-6f98-4d4a-96e1-5295b0128b34")
 			(effects
@@ -3995,7 +3995,7 @@
 		(property "Reference" "J3"
 			(at 0 -4.75 0)
 			(layer "F.SilkS")
-			(uuid "a7a10467-053d-40a6-a220-b6a400a15490")
+			(uuid "76fab414-d223-4553-86a1-dda5b0ec834e")
 			(effects
 				(font
 					(size 1 1)
@@ -4006,7 +4006,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 0 5 0)
 			(layer "F.Fab")
-			(uuid "dc9c6cd8-46cc-4713-a4ca-c69e074568e8")
+			(uuid "6637a960-2577-44bc-b96d-9a0c579116ed")
 			(effects
 				(font
 					(size 1 1)
@@ -4019,7 +4019,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a1df10a-6823-4520-9c2b-5dc147e2252d")
+			(uuid "304753b4-a7e2-48f4-af3b-5bbdebcc1866")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22907b45-6de7-4fdb-9e97-c100b34ddbb2")
+			(uuid "e1aaa8fe-a4bf-4ef1-a87d-20e54e2f85c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,6 +14575,22 @@
 		(uuid "f66431bd-4c18-4ca7-a8c7-b479a77b9041")
 	)
 	(segment
+		(start 229.328 54.047)
+		(end 232.418 54.047)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(IC1-50_OHM_TERM_EXTERNAL)")
+		(uuid "87581a1b-b034-40aa-8816-96ca74263dd1")
+	)
+	(segment
+		(start 232.418 54.047)
+		(end 232.468 53.997)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(IC1-50_OHM_TERM_EXTERNAL)")
+		(uuid "b3ef6e14-9d22-453b-8526-0ed4f85ae166")
+	)
+	(segment
 		(start 147.320136 66.797)
 		(end 187.700864 66.797)
 		(width 0.2)
@@ -15800,6 +15816,22 @@
 		(layer "F.Cu")
 		(net "Net-(IC3-50_OHM_TERM_EXTERNAL)")
 		(uuid "9c7d24d3-3042-4ea9-9c74-0546bc7bd070")
+	)
+	(segment
+		(start 131.351 70.547)
+		(end 131.358 70.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(IC2-50_OHM_TERM_EXTERNAL)")
+		(uuid "34463280-ad84-4d2d-a886-3ff6a72b7b20")
+	)
+	(segment
+		(start 128.25 70.547)
+		(end 131.351 70.547)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(IC2-50_OHM_TERM_EXTERNAL)")
+		(uuid "e0604447-4570-4760-bef9-5ba927d1a90a")
 	)
 	(segment
 		(start 122.28 70.547)

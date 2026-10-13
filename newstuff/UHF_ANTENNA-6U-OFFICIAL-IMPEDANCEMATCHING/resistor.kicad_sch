@@ -976,16 +976,6 @@
 		)
 		(uuid "b76c1151-2900-4fb3-8ebd-fe13cbee17bd")
 	)
-	(text "test"
-		(exclude_from_sim no)
-		(at 96.52 93.218 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e8bb700b-c23a-4927-a9b7-c12487b832d6")
-	)
 	(junction
 		(at 153.67 71.12)
 		(diameter 0)
