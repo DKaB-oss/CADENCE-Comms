@@ -519,7 +519,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "VSS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +666,7 @@
         "uuid": "3d47e3ea-60d5-41c5-b021-a5e3af8316b2"
       }
     ],
-    "used_designators": "ANT1,H1-5,#PWR117-118,L1-2,C1-2,ANTENNA2-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
