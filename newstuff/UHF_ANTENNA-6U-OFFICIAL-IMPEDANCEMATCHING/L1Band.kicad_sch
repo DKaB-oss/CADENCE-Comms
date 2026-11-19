@@ -463,6 +463,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SMA connector for L1 Band GPS Patch Antenna\n50 ohms impedance matching\n"
+		(exclude_from_sim no)
+		(at 165.608 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7399397-7639-4d3e-9b0a-597dcca69ea0")
+	)
 	(wire
 		(pts
 			(xy 143.51 80.01) (xy 149.86 80.01)

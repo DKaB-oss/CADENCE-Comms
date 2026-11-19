@@ -1324,6 +1324,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "UHF Short Length"
+		(exclude_from_sim no)
+		(at 51.054 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37e6627a-d407-4ea3-8594-9fa248c4b8f0")
+	)
+	(text "UHF Short Lenght + 1/4 wavelength (0.99 mm)\n(added 90 degree phase delay to produce 180 degree delay output)"
+		(exclude_from_sim no)
+		(at 222.25 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57f785a9-69b9-480b-898e-f6fb18668c46")
+	)
 	(text "lambda = (3x10^8 m/s) / (437x10^6)"
 		(exclude_from_sim no)
 		(at 233.68 220.98 0)
@@ -1391,12 +1411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2baf682a-facd-4bde-a227-d32250ab9fb3")
-	)
-	(junction
-		(at 76.2 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37fbf0dd-4459-4321-b968-44aa1f8ae438")
 	)
 	(junction
 		(at 372.11 91.44)
@@ -1636,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 299.72 93.98)
+			(xy 142.24 82.55) (xy 299.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1846,6 +1860,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 82.55) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a98536-f00c-4772-8293-c6a1821d8941")
+	)
+	(wire
+		(pts
 			(xy 124.46 128.27) (xy 124.46 130.81)
 		)
 		(stroke
@@ -1873,16 +1897,6 @@
 			(type default)
 		)
 		(uuid "9ab4a19d-7553-4d35-afd1-5f2f26eb1659")
-	)
-	(wire
-		(pts
-			(xy 76.2 124.46) (xy 76.2 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b94318c-a1e1-4a19-b8fa-e16716c96d4c")
 	)
 	(wire
 		(pts
@@ -2006,6 +2020,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 82.55) (xy 299.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4e08be-04b4-4693-95e8-85df1ed311ef")
+	)
+	(wire
+		(pts
 			(xy 207.01 128.27) (xy 234.95 128.27)
 		)
 		(stroke
@@ -2076,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 76.2 124.46)
+			(xy 76.2 119.38) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3884,8 +3908,8 @@
 		)
 	)
 	(image
-		(at 101.6 224.79)
-		(scale 1.57841)
+		(at 73.66 224.79)
+		(scale 1.17692)
 		(uuid "8b613632-9779-4cf2-af91-dd2be6823c9d")
 		(data "iVBORw0KGgoAAAANSUhEUgAABDYAAAM5CAYAAAD8IrEXAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3X1cVFX+B/CPWzIzIAwoDPIsIKJCFKn4tJhY5JqtWWuWmpmZZa21bqaVmpVPbZqtu9pmkhqa"
@@ -6074,6 +6098,82 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 322.58 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d41a6b-cb60-4fb5-b925-28452a7e4e90")
+		(property "Reference" "H6"
+			(at 325.12 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 325.12 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 322.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 322.58 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/6fb2763d-f6e6-4d71-bf60-0aefca6866d2"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 289.56 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -6392,7 +6492,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 331.47 163.83 0)
+		(at 322.58 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6403,7 +6503,7 @@
 		(fields_autoplaced yes)
 		(uuid "145c38e3-022f-4a58-bd70-3efb7dec6a13")
 		(property "Reference" "H5"
-			(at 334.01 162.5599 0)
+			(at 325.12 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6414,7 +6514,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 334.01 165.0999 0)
+			(at 325.12 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6425,7 +6525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 331.47 163.83 0)
+			(at 322.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 163.83 0)
+			(at 322.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,7 +6547,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 331.47 163.83 0)
+			(at 322.58 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,6 +6649,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 322.58 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d24833-fc2b-47c7-9591-68510bac975e")
+		(property "Reference" "H7"
+			(at 325.12 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 325.12 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 322.58 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 322.58 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/6fb2763d-f6e6-4d71-bf60-0aefca6866d2"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 151.13 0)
 		(unit 1)
@@ -6635,7 +6811,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3339641f-c7d7-4792-b9bd-df1c508466de")
 		(property "Reference" "C2"
@@ -7109,6 +7285,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 322.58 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "753cd544-41b6-4966-b38e-a597b905db90")
+		(property "Reference" "H8"
+			(at 325.12 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 325.12 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 322.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 322.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/6fb2763d-f6e6-4d71-bf60-0aefca6866d2"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 114.3 180)
 		(unit 1)
@@ -7117,7 +7369,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d2fb17b-280d-48a4-8269-db71dcea163e")
 		(property "Reference" "C1"
@@ -7339,6 +7591,82 @@
 			(project "UHF_ANTENNA-6U"
 				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/6fb2763d-f6e6-4d71-bf60-0aefca6866d2"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 349.25 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c012ae-718a-4281-8297-d8e26d578377")
+		(property "Reference" "H9"
+			(at 351.79 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 351.79 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 349.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 349.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/6fb2763d-f6e6-4d71-bf60-0aefca6866d2"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -7900,7 +8228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 124.46 0)
+		(at 76.2 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7910,7 +8238,7 @@
 		(dnp no)
 		(uuid "cd497216-8a8b-4787-9fe0-66dfc0831a02")
 		(property "Reference" "#PWR0103"
-			(at 76.2 130.81 0)
+			(at 76.2 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +8249,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 74.93 129.286 0)
+			(at 74.93 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7932,7 +8260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 124.46 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 124.46 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +8282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 124.46 0)
+			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8793,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e7cbb91d-b7c3-4a44-83ad-f2cfa70ba0b2")
 		(property "Reference" "L2"
@@ -8701,7 +9029,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb916f54-50f1-45d1-92db-d4cfa8ef60ba")
 		(property "Reference" "L1"

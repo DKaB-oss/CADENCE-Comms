@@ -5,6 +5,16 @@
 	(uuid "3d47e3ea-60d5-41c5-b021-a5e3af8316b2")
 	(paper "A4")
 	(lib_symbols)
+	(text "Phasing network design for UHF Canted Turnstile Antenna + L1 GPS Patch Antenna \n\n437.5 MHz - UHF \n\n1.57542 GHz- GPS L1 \n\n3 QBA-07+ Power splitters for phasing network (Oresat0 used the same ones for their tri-band turnstile) \n\n4 UHF antenna elements with target relative phases of 0°, 90°, 180°, and 270° (Clockwise)\n\n50 ohm RF transmission lines using GCPW \n\nLC impedance matching on UHF antenna ports 2 and 4 (20 nH, 7.1 pF) \n\nPort 2 and 4 have simulated impedances that require impedance matching, we used LC matching \n\n6-layer PCB using JLCPCB's JLC06161H-3313 stack up \n\nMMCX connector to UHF Ebyte carrier board; separate SMA connector for gps antenna \n\nUSB-C PD input for external power during testing/charging \n\nMOSFET-controlled burn-wire circuit for antenna deployment \n\n "
+		(exclude_from_sim no)
+		(at 127 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75adca7c-8a76-457e-9062-c24100224a9e")
+	)
 	(sheet
 		(at 181.102 30.734)
 		(size 12.7 3.81)

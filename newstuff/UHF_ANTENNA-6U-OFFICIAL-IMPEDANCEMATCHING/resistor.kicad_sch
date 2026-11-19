@@ -967,7 +967,7 @@
 	)
 	(text "PAC100007508FA1000"
 		(exclude_from_sim no)
-		(at 163.83 106.68 0)
+		(at 163.576 106.934 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
