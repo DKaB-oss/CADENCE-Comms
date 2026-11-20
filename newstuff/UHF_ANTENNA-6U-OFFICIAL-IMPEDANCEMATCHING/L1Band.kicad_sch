@@ -463,7 +463,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SMA connector for L1 Band GPS Patch Antenna\n50 ohms impedance matching\n"
+	(text "SMA connector for L1 Band GPS Patch Antenna\n50 ohms impedance matching required\n"
 		(exclude_from_sim no)
 		(at 165.608 104.14 0)
 		(effects
@@ -758,7 +758,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 124.46 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)

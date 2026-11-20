@@ -3492,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 173.99 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 151.13 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4264,7 +4264,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 193.04 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 102.87 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 96.52 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 95.25 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 187.96 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5626,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 167.894 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 208.28 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
