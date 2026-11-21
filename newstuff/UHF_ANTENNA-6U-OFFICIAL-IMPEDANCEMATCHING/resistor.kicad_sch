@@ -976,6 +976,16 @@
 		)
 		(uuid "b76c1151-2900-4fb3-8ebd-fe13cbee17bd")
 	)
+	(text "BURN-WIRE DEPLOYMENT CIRCUIT\nJ5: 10.6 V nominal, 0.191 A input from BMS\nJ6: Flight controller 3v3 GPIO and GND\nQ1: N-channel low-side MOSFET switch\nR4 = 100 ohm: Series gate resistor\nR5 = 7.5 ohm: Resistive deployment heater\nGPIO HIGH: MOSFET ON, current flows through R5\nGPIO LOW: MOSFET OFF\nRequired: Gate pull-down and independent deployment inhibit."
+		(exclude_from_sim no)
+		(at 73.914 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed436915-c93b-4446-b98e-7513ddbc994f")
+	)
 	(junction
 		(at 153.67 71.12)
 		(diameter 0)
