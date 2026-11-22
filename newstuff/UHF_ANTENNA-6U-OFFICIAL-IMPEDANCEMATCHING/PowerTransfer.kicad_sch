@@ -2157,6 +2157,16 @@
 		)
 		(uuid "239ed463-e82a-4a0a-9dc5-75ce1a61e2b1")
 	)
+	(text "20V, 2A -->\nInto BMS board"
+		(exclude_from_sim no)
+		(at 176.022 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "546306f1-6e5c-4917-b329-461880e6da0b")
+	)
 	(text "USB-C Power Delivery"
 		(exclude_from_sim no)
 		(at 151.13 19.558 0)
