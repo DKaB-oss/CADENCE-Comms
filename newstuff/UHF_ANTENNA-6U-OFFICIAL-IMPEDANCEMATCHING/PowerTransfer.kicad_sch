@@ -2209,6 +2209,16 @@
 		)
 		(uuid "a42566f8-e64d-4b3e-b875-0453e792fb03")
 	)
+	(text "Back-to-back PMOS FETs (Q27, Q28) isolate VBUS from VDC_OUT \nuntil 20V PD negotiation succeeds (VBUS_FET_EN pulled low), \nproviding soft-start/filtering (R73, R74, C55-C58) and \nreverse-current protection to the BMS."
+		(exclude_from_sim no)
+		(at 92.202 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7693aa4-4aad-40bb-9a9a-f2f53874dc9d")
+	)
 	(text "leave USB \ncommunication\npins disconnected"
 		(exclude_from_sim no)
 		(at 116.84 131.826 0)

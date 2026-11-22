@@ -1385,7 +1385,7 @@
 		)
 		(uuid "0c736186-8098-4f95-94a8-ff7ed673e383")
 	)
-	(text "https://www.everythingrf.com/rf-calculators/coplanar-waveguide-calculator"
+	(text "https://www.everythingrf.com/rf-calculators/coplanar-waveguide-calculator\n1/4 Wavelength Calculation"
 		(exclude_from_sim no)
 		(at 65.024 207.264 0)
 		(effects
@@ -1427,7 +1427,7 @@
 	)
 	(text "UHF 90"
 		(exclude_from_sim no)
-		(at 253.238 85.344 0)
+		(at 212.09 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 	)
 	(text "UHF 270"
 		(exclude_from_sim no)
-		(at 252.984 27.178 0)
+		(at 210.82 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1473,7 +1473,7 @@
 	)
 	(text "UHF 0"
 		(exclude_from_sim no)
-		(at 257.048 119.634 0)
+		(at 212.598 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,7 +1485,7 @@
 	)
 	(text "UHF 180"
 		(exclude_from_sim no)
-		(at 255.27 66.04 0)
+		(at 211.328 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
