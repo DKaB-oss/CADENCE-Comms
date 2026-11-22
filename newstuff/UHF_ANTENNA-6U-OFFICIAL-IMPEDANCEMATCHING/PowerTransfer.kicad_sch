@@ -1725,18 +1725,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Q_PMOS_DGS_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "easyeda2kicad:MDD06P03C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q28"
-				(at 8.89 0 90)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1745,8 +1741,8 @@
 					)
 				)
 			)
-			(property "Value" "Q_PMOS_DGS"
-				(at 6.35 0 90)
+			(property "Value" "MDD06P03C"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1755,8 +1751,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 2.54 0)
+			(property "Footprint" "easyeda2kicad:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1766,7 +1762,18 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1777,8 +1784,8 @@
 					)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
-				(at 0 0 0)
+			(property "Manufacturer" "MDD(辰达半导体)"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1788,8 +1795,8 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
+			(property "MPN" "MDD06P03C"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1799,176 +1806,164 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "LCSC Part" "C53069233"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "MDD06P03C_0_1"
+				(polyline
+					(pts
+						(xy -1.78 2.29) (xy -1.78 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.51) (xy -1.27 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.29) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -0.25 0.51) (xy -0.25 -0.51) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.51) (xy 4.57 0.76) (xy 3.05 0.76) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.57 -0.51) (xy 4.32 -0.51) (xy 3.3 -0.51) (xy 3.05 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -1985,8 +1980,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin unspecified line
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -2003,307 +1998,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q_PMOS_DGS_2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q27"
-				(at 8.89 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Q_PMOS_DGS"
-				(at 6.35 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_PMOS_DGS_2_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_DGS_2_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin unspecified line
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2496,12 +2192,6 @@
 		(uuid "0f1892ea-0794-4615-b0ef-932e3b5cd56e")
 	)
 	(junction
-		(at 133.35 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29ddbe23-a68b-4ff5-bddf-e6f532ca6762")
-	)
-	(junction
 		(at 139.7 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2524,6 +2214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ea5718b-1ed1-4988-8a79-91ce1408efa6")
+	)
+	(junction
+		(at 133.35 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b734ac-b8a1-4732-b9c1-a8c8b7d7d283")
 	)
 	(junction
 		(at 165.1 113.03)
@@ -2553,7 +2249,7 @@
 		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6354e65-dc63-474a-b200-b51d3356fdb4")
+		(uuid "c4199f3b-de69-466b-9db1-c9d30053c5a8")
 	)
 	(junction
 		(at 160.02 73.66)
@@ -2644,6 +2340,26 @@
 			(type default)
 		)
 		(uuid "093a46d6-24a5-4d90-aae1-b53c68ae2cba")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a4a6ae-ad35-4233-a0df-d9648d95abb0")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb61900-4d90-4765-b28c-ebcc4f17f980")
 	)
 	(wire
 		(pts
@@ -2757,16 +2473,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5707775c-5c48-4793-8b4f-c20afe2b160d")
-	)
-	(wire
-		(pts
 			(xy 161.29 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -2867,16 +2573,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 160.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c601ac-e21c-4d57-8223-28529350117c")
-	)
-	(wire
-		(pts
 			(xy 165.1 115.57) (xy 172.72 115.57)
 		)
 		(stroke
@@ -2927,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad69ec2b-b8f2-4b8d-8d9c-4a2bd5c31034")
+	)
+	(wire
+		(pts
 			(xy 223.52 102.87) (xy 223.52 104.14)
 		)
 		(stroke
@@ -2954,6 +2660,16 @@
 			(type default)
 		)
 		(uuid "b277f292-7301-43dd-a666-120e1e888760")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b477c445-1e5a-4a69-bd7e-82285f5b7e8e")
 	)
 	(wire
 		(pts
@@ -3652,9 +3368,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_PMOS_DGS_1")
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 149.86 76.2 270)
+		(lib_id "easyeda2kicad:MDD06P03C")
+		(at 149.86 74.93 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3665,7 +3380,7 @@
 		(dnp no)
 		(uuid "2d2d88d4-f434-4177-a0c3-c8de240b90bb")
 		(property "Reference" "Q28"
-			(at 149.86 67.31 90)
+			(at 149.86 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3674,8 +3389,8 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 149.86 69.85 90)
+		(property "Value" "MDD06P03C"
+			(at 149.606 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3684,8 +3399,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 71.12 0)
+		(property "Footprint" "easyeda2kicad:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,8 +3410,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 76.2 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,7 +3422,40 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 149.86 76.2 0)
+			(at 149.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MDD06P03C"
+			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53069233"
+			(at 127 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,9 +4090,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_PMOS_DGS_2")
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 133.35 76.2 90)
+		(lib_id "easyeda2kicad:MDD06P03C")
+		(at 133.35 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4355,7 +4102,7 @@
 		(fields_autoplaced yes)
 		(uuid "65ac0420-d2c9-443f-b66d-822af471a947")
 		(property "Reference" "Q27"
-			(at 133.35 67.31 90)
+			(at 133.35 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4364,8 +4111,8 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 133.35 69.85 90)
+		(property "Value" "MDD06P03C"
+			(at 133.35 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4374,8 +4121,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 130.81 71.12 0)
+		(property "Footprint" "easyeda2kicad:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,8 +4132,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 76.2 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4397,7 +4144,40 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 133.35 76.2 0)
+			(at 133.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 151.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MDD06P03C"
+			(at 153.67 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53069233"
+			(at 156.21 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
