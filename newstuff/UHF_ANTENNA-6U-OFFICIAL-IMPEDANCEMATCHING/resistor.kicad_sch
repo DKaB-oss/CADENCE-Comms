@@ -954,9 +954,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "10v6 nominal, 12V max\n0.191A nominal\ninput from BMS board -->\n"
+		(exclude_from_sim no)
+		(at 135.636 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e409060-6b28-4577-ab6b-4e9981570be4")
+	)
 	(text "Meltwire\nResistor"
 		(exclude_from_sim no)
-		(at 167.894 113.03 0)
+		(at 167.894 102.87 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -967,7 +977,7 @@
 	)
 	(text "PAC100007508FA1000"
 		(exclude_from_sim no)
-		(at 163.576 106.934 0)
+		(at 163.576 96.774 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -975,6 +985,16 @@
 			(justify left bottom)
 		)
 		(uuid "b76c1151-2900-4fb3-8ebd-fe13cbee17bd")
+	)
+	(text "3v3 logic from \nflight computer \nboard -->"
+		(exclude_from_sim no)
+		(at 100.584 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db61f29d-255b-4f93-a33f-63fa4da94333")
 	)
 	(text "BURN-WIRE DEPLOYMENT CIRCUIT\nJ5: 10.7 V nominal, 0.191 A input from BMS\nJ6: Flight controller 3v3 GPIO and GND\nQ1: N-channel low-side MOSFET switch\nR4 = 100 ohm: Series gate resistor\nR5 = 7.5 ohm: Resistive deployment heater\nGPIO HIGH: MOSFET ON, current flows through R5\nGPIO LOW: MOSFET OFF\nRequired: Gate pull-down and independent deployment inhibit."
 		(exclude_from_sim no)
@@ -1100,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 123.19) (xy 130.81 123.19)
+			(xy 120.65 123.19) (xy 130.81 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 115.57 128.27)
+			(xy 120.65 125.73) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 128.27 0)
+		(at 120.65 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1520,7 +1540,7 @@
 		(dnp no)
 		(uuid "4d7aec89-fa55-4736-9c97-64c815988c52")
 		(property "Reference" "#PWR0112"
-			(at 115.57 134.62 0)
+			(at 120.65 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1531,7 +1551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 133.096 0)
+			(at 119.38 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1542,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 128.27 0)
+			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1553,7 +1573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 128.27 0)
+			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,7 +1584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 128.27 0)
+			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1932,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 110.49 125.73 180)
+		(at 115.57 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1923,7 +1943,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd7ee586-229b-4a2a-874d-cd3c509e66b8")
 		(property "Reference" "J6"
-			(at 110.49 116.84 0)
+			(at 115.57 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1933,7 +1953,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 110.49 119.38 0)
+			(at 115.57 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1943,7 +1963,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 110.49 125.73 0)
+			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,7 +1974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 125.73 0)
+			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +1985,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.49 125.73 0)
+			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
