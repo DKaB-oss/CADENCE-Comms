@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "Board Description"
 		(exclude_from_sim no)
-		(at 65.024 25.146 0)
+		(at 57.404 25.146 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -29,10 +29,10 @@
 		)
 		(uuid "ecf14316-87de-4ee7-bfcd-eb27353de55b")
 	)
-	(text_box "CADENCE Antenna PCB is a 6-layer board supporting UHF communications, GPS L1 reception, power transfer, and antenna deployment.\n\nUHF - 437.5 MHz\n\n- 3 QBA-07+ hybrids generating four phased antenna outputs (0°, 90°, 180°, 270°)\n- 50 Ω GCPW traces \n- LC impedance matching on antenna ports 2 & 4\n- MMCX interface to Ebyte carrier board (UHF transceiver board)\n\nGPS L1 - 1575.42 MHz\n\n- GPS patch antenna with SMA interface\n- 50 Ω GCPW traces \n\nPower Transfer\n\n- USB-C PD input for external power during testing/charging\n\nAntenna Deployment\n\n- MOSFET-controlled burn-wire circuit\n\nPCB & Mechanical Design\n\n- 6-layer JLC06161H-3313 stackup\n\n- Top-face CubeSat mounting and external hardware interfaces. Covers (+) Z face"
+	(text_box "CADENCE Antenna PCB is a 6-layer board supporting UHF communications, GPS L1 reception, power transfer, and antenna deployment.\n\nUHF - 437.5 MHz\n\n- 3 QBA-07+ hybrids generating four phased antenna outputs (0°, 90°, 180°, 270°)\n- 50 Ω GCPW traces \n- LC impedance matching on antenna ports 2 & 4\n- MMCX interface to Ebyte carrier board (UHF transceiver board)\n\nGPS L1 - 1575.42 MHz\n\n- GPS patch antenna with SMA interface\n- 50 Ω GCPW traces \n\nPower Transfer\n\n- USB-C PD input for external power during testing/charging\n- Charges the BMS board conected through JST connector\n\nAntenna Deployment\n\n- MOSFET-controlled burn-wire circuit\n- Signal comes from connection to FC board\n\nPCB & Mechanical Design\n\n- 6-layer JLC06161H-3313 stackup\n- Top-face CubeSat mounting and external hardware interfaces. Covers (+) Z face"
 		(exclude_from_sim no)
 		(at 16.51 30.48 0)
-		(size 82.55 64.77)
+		(size 82.55 65.6213)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
